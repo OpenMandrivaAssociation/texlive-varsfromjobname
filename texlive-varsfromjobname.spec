@@ -48,3 +48,16 @@ separated by hyphens.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.5-2
++ Revision: 757392
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.5-1
++ Revision: 719874
+- texlive-varsfromjobname
+- texlive-varsfromjobname
+- texlive-varsfromjobname
+
