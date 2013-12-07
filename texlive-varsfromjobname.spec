@@ -6,7 +6,7 @@
 # catalog-version 0.5
 Name:		texlive-varsfromjobname
 Version:	0.5
-Release:	3
+Release:	4
 Summary:	Extract variables from the name of the LaTeX file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/varsfromjobname
