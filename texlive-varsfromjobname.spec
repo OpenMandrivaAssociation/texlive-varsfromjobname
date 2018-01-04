@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/varsfromjobname
-# catalog-date 2009-01-12 09:20:39 +0100
-# catalog-license lppl
-# catalog-version 0.5
 Name:		texlive-varsfromjobname
-Version:	0.5
-Release:	10
+Version:	1.0
+Release:	1
 Summary:	Extract variables from the name of the LaTeX file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/varsfromjobname
@@ -34,10 +28,8 @@ separated by hyphens.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/varsfromjobname/varsfromjobname.sty
-%doc %{_texmfdistdir}/doc/latex/varsfromjobname/README
-%doc %{_texmfdistdir}/doc/latex/varsfromjobname/varsfromjobname.pdf
-%doc %{_texmfdistdir}/doc/latex/varsfromjobname/varsfromjobname.tex
+%{_texmfdistdir}/tex/latex/varsfromjobname
+%doc %{_texmfdistdir}/doc/latex/varsfromjobname
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,16 +40,3 @@ separated by hyphens.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.5-2
-+ Revision: 757392
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.5-1
-+ Revision: 719874
-- texlive-varsfromjobname
-- texlive-varsfromjobname
-- texlive-varsfromjobname
-
